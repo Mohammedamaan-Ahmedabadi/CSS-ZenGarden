@@ -67,7 +67,7 @@ body::after {
 }
 
 /* Define the stardust animation that moves stars vertically */
-@keyframes zg-stardust{
+@keyframes stardust{
   0%{
     transform: translateY(0);
   }
@@ -606,4 +606,5 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, var(--accent-blue), var(--accent-pink)); /* Blue to pink gradient */
 }
+
 
