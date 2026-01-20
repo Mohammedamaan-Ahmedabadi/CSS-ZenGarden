@@ -67,9 +67,16 @@ body::after {
 }
 
 /* Define the stardust animation that moves stars vertically */
-@keyframes stardust {
-  0% { transform: translateY(0); } /* Start at original position */
-  100% { transform: translateY(-1000px); } /* Move up 1000px creating infinite scroll effect */
+@keyframes zg-stardust{
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-1000px);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
 /* === PLANETS === */
@@ -599,3 +606,4 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, var(--accent-blue), var(--accent-pink)); /* Blue to pink gradient */
 }
+
