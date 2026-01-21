@@ -72,7 +72,7 @@ body::after {
     transform: translateY(0);
   }
   50%{
-    transform: translateY(-1000px);
+    transform: translateY(-600px);
   }
   100%{
     transform: translateY(0);
@@ -606,5 +606,6 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, var(--accent-blue), var(--accent-pink)); /* Blue to pink gradient */
 }
+
 
 
